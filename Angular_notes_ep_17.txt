@@ -1,0 +1,30 @@
+Episode #17 - Directives 
+
+1. Directive is a way to extend our HTML including both view as well as behaviour
+
+2. Directives are used to extend the power of HTML 
+
+3. Mainly 3 types of directives 
+
+    Component Directive 
+
+    Structural Directive 
+        ngIf
+        ngFor
+        ngSwitch
+
+    Attribute Directive 
+        ngClass
+        ngStyle 
+
+4. Examples 
+    AppComponent -> Componnt Directive 
+
+5. Custom Directives 
+
+    ng g directive highlight
+
+    - This is an advanced topic 
+    - We will revisit this topic again once we have our foundations better 
+
+

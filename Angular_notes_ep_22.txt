@@ -1,0 +1,25 @@
+Episode #22 - ngStyle 
+
+1. ngStyle is a built in directive used to set style/css properties 
+
+2. [ngStyle] 
+
+3. Any/All css properties using ngStyle 
+
+4. more than 1 property on any DOM element 
+
+5. We can also pass dynamic values to ngStyle 
+
+6. ngStyle - hands-on examples 
+
+    6.1 basic use case of ngStyle - setting a value using ngStyle 
+    6.2 dynamic value from component 
+    6.3 ngStyle with conditional operators 
+
+7. Common mistakes 
+    - Not giving correct {} braces 
+    - Not putting correct double/single qoutes where required 
+    - Spelling mistakes in defining the css properties 
+    - DO NOT put qoutes for the variables - it will become strings
+
+

@@ -1,0 +1,49 @@
+
+
+Episode #10 - Angular CLI 
+
+Angular CLI - Command Line Interface 
+
+    - schematics -> angular.json / package.json 
+        ng serve 
+        ng build
+        ng test 
+        ng lint 
+        ng e2e 
+    - commands 
+
+        ng new <project_name>
+
+        ng generate component <component_name>
+        ng generate module <module_name>
+        ng generate pipe <pipe_name>
+        ng generate directive 
+    
+    angular.json 
+
+        demo 
+            ng serve 
+            ng test 
+                - test and run all our unit test scripts 
+
+            ng e2e 
+                - test and run all our end to end tests 
+
+            ng lint 
+
+            ng build 
+                -> build your app and make it ready for production env deployment
+                 -> dist <simpleCRM>
+                    vendor.js
+                    main.js 
+                    style.css
+
+            ng generate 
+            ng g 
+                components 
+                pipes
+                modules 
+                services 
+                directives 
+                applications 
+        

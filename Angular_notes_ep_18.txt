@@ -1,0 +1,19 @@
+Espisode #18 - Structrual Directives 
+
+1. Structrual Directives will help us in extending, adding or removing elements from the HTML page 
+
+2. DOM Mainupulation 
+
+3. 3 types of Structrual Directives
+
+    ngIf
+    ngFor
+    ngSwitch 
+
+4. asterisk (*) means its a built in Structrual directive 
+
+E.g ngIf 
+    <div *ngIf="<condition>"> Value 1</div> 
+
+
+

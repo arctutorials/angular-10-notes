@@ -1,0 +1,31 @@
+Episode #23 - ngClass 
+
+1. ngClass is a directive used for setting the class name of DOM elements 
+
+2. we can provide more than 1 class names using ngClass 
+    -> we can re-use the code for multiple DOM elements 
+
+3. We can pass strings
+
+4. we can pass array values
+
+5. we can pass objects 
+
+6. Common mistakes 
+    - Not writing in correct qoutes 
+    - not putting ngClass in square brackets 
+    - using quotes for variables
+
+hands-on examples:
+
+1. <div [ngClass]="'c1'">This is ngClass example</div>
+
+2. <div [ngClass]="'c1 c2 c3 c4'">This is ngClass Multiple classes example</div>
+
+3. <div [ngClass]="styleClsProp">This is ngClass using dynamic variable example</div>
+
+4. <div [ngClass]="conditionClsProp === 'c4'? 'c4' : 'c5'">This is ngClass using conditional check example</div>
+
+5. <div [ngClass]="{c4: true, c5: false}">This is ngClass using Object example</div>
+
+6. Try out the method returning class name to [ngClass]

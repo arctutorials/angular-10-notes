@@ -1,0 +1,38 @@
+Angular CLI 
+
+0.0    - Command Line Interface 
+        -> In the terminal - you can run commands and get most of the work done easily
+        -> It provides some commands and schematics which helps us with faster code generation 
+
+0.1 To get the terminal in Visual Studio Code 
+    -> The short cut is 
+        "ctrl+backtick ( upper top left side)"
+
+1. check for node version by running the command 
+    -> node -v 
+
+2. Check for the npm version 
+    -> npm -v \
+
+3. To install Angular CLI 
+    npm i -g @angular/cli 
+
+4. To create new project 
+    ng new <project_name>
+
+    - it will generate all the required files, folders, test scripts to run a application 
+
+5. We will deep dive and explore each and every folder/file to understand the Angular project in detail 
+    - In the next episode 
+        -> 
+6. cd simpleCRM 
+
+7. ng serve
+    -> The application will be compiled here
+    -> default port of Angular is 4200 
+
+    -> http://localhost:4200
+
+8. Application is up and running 
+
+Mission #1 - Complete

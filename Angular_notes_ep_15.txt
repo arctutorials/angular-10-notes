@@ -1,0 +1,46 @@
+Episode #15 
+Communication between various Angular components 
+
+Contacts -> Module 
+
+    contact-listing -> parent component 
+        contact-grid -> child component 
+        contact-tools -> child component 
+            download-pdf -> sub-child component 
+            download-excel 
+
+Leads -> Module 
+
+    leads-listing -> parent component 
+
+
+
+Components are hierarchial 
+Parent-child relationship 
+
+p1
+    child1
+        sub-child1
+    child2
+
+p2 
+    p2-child1
+
+1. Communications between the related components 
+    parent component -> child components
+        @Input 
+    parent components <- child components
+        @Output 
+
+    Leads Module 
+        leads-listing 
+            leads-grid 
+            leads-tools 
+                download-excel
+                download-pdf
+
+2. communication between totally unrealted components 
+    Component1 -> Services <-   Component2
+
+    services 
+        is a common reusable piece of functionality shared between different components  

@@ -1,0 +1,33 @@
+
+
+CRM Application 
+
+    src 
+        contacts -> Module
+            add-contact -> components inside module 
+            edit-contact -> components inside module 
+            delete-contact -> components inside module 
+            view-contact -> components inside module 
+        users
+            add-user -> components inside module 
+        orders
+        leads
+        reports
+        settings
+        profile
+
+        shared
+            auth
+            tokens
+
+        services -> HTTP/ Resuable code
+            contact-service.ts 
+            user-service.ts
+
+        assets
+            images
+            mock-data 
+
+        pipes 
+            highlight-pipe 
+

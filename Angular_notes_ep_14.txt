@@ -1,0 +1,28 @@
+
+
+Soorya.aaradhya@gmail.com 
+
+Like | Share | Comment | Subscribe 
+
+Angular component lifecycle hooks 
+
+1. By default we have ngonit 
+
+2. Whichever lifecycle hooks we want to use
+    1. import it in the class 
+    2. Extend the implements interface 
+    3. Implement the method  
+
+3. We can have any number of lifecycle hooks implemented 
+
+4. Its too early for us to implement all of them today 
+
+    - We will revisit this topic again component communication 
+
+    - Component Communication 
+        - Between components 
+            Parent to Child 
+            Child to Parent 
+
+5. I am here to teach to end to end- to help you master Angular 
+
