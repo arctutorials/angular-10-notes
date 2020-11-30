@@ -1,0 +1,33 @@
+Episode #31 - Built-In Pipes 
+
+1. Pipe is used to transform the input data into ouput desired format 
+
+2. Built in pipes - we use them in templates 
+
+3. We can use multiple pipes in the template on elements 
+
+4. Syntax is 
+    <div> {{ <input_data> | <name_of_pipe> }} </div>
+
+4. Built-In Pipes which are readily available for us to use 
+
+    lowercase 
+        -> saving usernames/email_address 
+            -> lowercase 
+    uppercase 
+        -> currency 
+        -> Airport Codes 
+
+    date 
+        -> by default Mon, dd, yyyy 
+
+    json 
+        -> I use this specially for debug purpose 
+        -> showing <code> 
+
+    currency
+        -> by default uses dollar symbol $
+    
+    percent 
+        -> by Default is rounding to near by integer 
+        -> multiple by 100 and add % symbol 

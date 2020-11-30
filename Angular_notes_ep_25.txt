@@ -1,0 +1,11 @@
+Episode #25 - Interpolation
+
+1. Common mistakes
+    - qoutes/single/doubles around the variables 
+    ctrl+c 
+
+    ngIf - interpolation 
+    ngFor -> 
+    ngSwitch -> Homework 
+
+2 same name should be given - whatever is given in component 

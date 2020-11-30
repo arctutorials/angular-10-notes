@@ -1,0 +1,11 @@
+Episode #35 - Component Routes 
+
+1. Commmon Mistakes 
+
+    1.1 developers will add "/" in path
+    1.2 component name in qoutes 
+    1.3 bad formed array of routes 
+    1.4 Sometimes your editor is not importing component correctly 
+    1.5 Red color underline means there is some error 
+
+    

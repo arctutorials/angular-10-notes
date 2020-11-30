@@ -1,0 +1,28 @@
+
+
+Home -> http://myapplication.com/ -> Default Route 
+
+Profile -> http://myapplication.com/profile -> Component Routing 
+
+Search -> http://myapplication.com/search?user=abc -> Query Params
+
+Tasks -> http://myapplication.com/tasks/10/category/pending -> URL Segments
+ 
+Users -> http://myapplication.com/users -> Module 
+
+    view-user -> http://myapplication.com/users/view/10 -> Child Routes 
+    edit-user -> http://myapplication.com/users/edit/10  -> Child Routes 
+    add-user -> http://myapplication.com/users/add  -> Child Routes 
+    manage-user -> http://myapplication.com/users/manage  -> Child Routes 
+
+PageNotFound -> http://myapplication.com/pageNotFound -> 404 error -> No matching routes 
+
+
+
+
+
+
+
+
+
+

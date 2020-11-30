@@ -1,0 +1,36 @@
+Episode #37 - Multiple Router Outlets
+
+1. We can have multiple router Outlets 
+
+2. by default there is always/"atleast" 1 router outlet in app.component.html file 
+
+3. When we don't provide any name for router-outlet it becomes primary 
+
+4. There should be only 1 primary 
+
+5. We can define multiple router outlets by giving name to them 
+
+6. That's why we call them "named" router outlets 
+
+7. we can give any name we want - give meaningful names 
+
+8. In routing module - if you don't define outlet - it means its primary 
+
+9. It will NOT show if you directly access it in the URL 
+--------------------------------------------------------------------
+
+10. Synatx should be like this 
+    http://localhost:4200/<primary-route>( <routerOutletName> : <secondaryPath> )
+
+11. Why are using this?
+    - Avoid this use case in applications? 
+    - You can inject components 
+        -> 
+12. URL is not user friendly 
+    - bookmarable URL 
+
+13. I have not personally seen this used a lot 
+    -> It's not used very much 
+
+
+

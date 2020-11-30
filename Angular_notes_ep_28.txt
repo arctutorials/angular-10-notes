@@ -1,0 +1,33 @@
+Episode #28 - Event Binding 
+
+1. Event binding is one way data binding 
+
+2. From view/template to Component
+
+3. We can call any event 
+    -> event is nothing but JavaScript events like 
+        -> onclick
+        -> onmouseover 
+        -> onfocus
+        -> onblur 
+
+4. Syntax is 
+
+    <button (click)="method()"></button>
+
+5. we can apply events to any element 
+
+6. If you are coming from programming 
+    -> functions 
+
+    f1(){
+
+    }
+
+7. Practice - calling events on various elements 
+    -> different events than I have used 
+
+    -> try creating few methods 
+        -> single parameter 
+        -> multiple parameter 
+

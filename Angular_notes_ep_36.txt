@@ -1,0 +1,23 @@
+Episode #36 - Router Outlet 
+
+1. Router outlet is a built-in directive 
+
+2. Every Angular app should have "atleast" 1 router outlet 
+    -> primary router outlet 
+
+3. By default - the router outlet is defined in app.component.html file 
+
+4. Router outlet will match the matching routes for the components 
+    -> takes its output 
+        -> inside inside the page
+
+5. Multiple router outlets in application 
+    -> We can have more than 1 router outlet 
+
+Common Mistakes 
+    -> you don't router-outlet 
+        -> you wont see the output 
+
+    -> Best practice is to leave router-outlet empty 
+
+    -> 

@@ -1,0 +1,26 @@
+Episode #24 - Data Binding 
+
+1. Each component 
+    users.component.html -> view/HTML/UI
+    users.component.scss -> classNames 
+    users.component.ts -> what data to be displayed/expressions 
+    users.component.spec.ts 
+    
+2. Data is spread throughout these files 
+
+3. Data Binding intercating with data of the component 
+
+4. Data can be from component to template -> one way
+
+5. Data can be from template to component -> one way 
+
+6. Two way  to/from component 
+            from/to   template
+
+7. One way/Two way is nothing but representation of data flow 
+    -> one way
+
+    -> two-way 
+    <-
+
+

@@ -1,0 +1,25 @@
+Episode #27 - Attribute Bindings
+
+1. Attribute binbing is a unidirectional - one-way data binding 
+
+2. Syntax -> [attr.attribute_name]="expression"
+
+3. The functionality may seem almost similar to property binding 
+
+4. one of the most important Q asked in interviews is 
+
+    -> what is the difference between property binding and attr binding
+
+        [ngClass]="expression" // property binding
+
+        [attr.className]="c1" // attribute binding 
+
+    -> some attributes are not natively supported for elements 
+
+        -> [colspan]="colVal" // error 
+        -> [attr.colspan]="colVal" 
+
+    -> Angular encourages to use property binding 
+        -> attrbute binding 
+
+        

@@ -1,0 +1,32 @@
+Episode #26 - Property Binding 
+
+1. We write the property in square brackets [propterty_name]="..."
+
+2. Its a one-data binding 
+
+3. We can bind any/multiple propeties to an DOM element 
+
+4. 
+
+innerHTML
+src
+alt 
+title 
+
+5. Go to w3schools.com -> HTML tutorial -> property HTML elements 
+
+6. Real Time use cases 
+
+1. Dynamic table columns 
+    -> colCount 
+
+2. Lining of Images from AWS s3 buckets 
+    -> 
+
+3. Ofcourse binding of style propeties 
+
+
+
+
+
+

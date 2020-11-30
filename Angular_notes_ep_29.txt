@@ -1,0 +1,33 @@
+Episode #29 - Two way Data Binding 
+
+1. Its a technique which helps us send data flow from template to component and vice versa
+
+2. Data from Component -> To template -> To component -> To Template 
+
+3. Two way data binding is a combination 
+    -> Alternative of writing ngModel 
+    -> Property Binding and Event Binding on the same element 
+
+    E.g 
+        <input [value]="data1" (input)="$event.target.value" />
+    
+4. Angular provides a built-in directive called "ngModel"   
+    - using ngModel - it will handle both Property binding and event binding on an element 
+
+5. <input [(ngModel)]="username" />
+
+    - Banana Syntax -> :)
+    - the name of the ngModel should be declared in the component class 
+        - if you don't declare this variable - it will give you error 
+            -> Error => property does not exist on AppComponent 
+    
+6. Very very important error 
+    --------------------------------------------------
+   "Can't bind to ngModel since it isnt a known property of input"
+    --------------------------------------------------
+
+   - you have not imported FormsModule in our AppModule 
+    -> How to fix it? 
+        Import FormsModule in our AppModule 
+
+

@@ -1,0 +1,18 @@
+Episode #32 - Parameterizing Pipes 
+
+1. Pipes can accept 1 or more parameters 
+    -> conditions/filters/specific data based on which data will be transformed 
+
+2. Some of the built in pipes which accept parameters are:
+
+    - currency 
+    - date 
+        'MMM-dd-yyyy'
+        'short'
+        'long'
+    - percent 
+        | percent : <minimumBeforeDecial>.<miniumDecialNumbers>-<maxDecimalNumbers>
+
+3. Syntax for writing parameter pipes 
+    {{ <data_input> | <pipe_name> : <parameter> }}
+
