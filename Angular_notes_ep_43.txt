@@ -1,0 +1,17 @@
+Episode #43 - Router Link 
+
+1. We can have any number of router links in the template 
+
+2. Router Links can be static or can be dynamic in nature 
+
+3. Common Mistakes 
+    - Not putting strings in single qoute 
+    - Not passing dyanmic data correctly 
+
+4. Static Router Link -> <a [RouterLink]="'/user'"> </a>
+
+5. Dynamic Router Link 
+
+6. We DO NOT have to put "/" in variables in routerLink
+
+7. Router Link Query Params -> we will cover along with Query params in routes 

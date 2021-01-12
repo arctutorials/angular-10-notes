@@ -1,0 +1,13 @@
+Episode #45 - Query Params 
+
+1. We can send data from Form -> 
+
+2. We can have data from click -> 
+
+Basically -> URL -> http://localhost.com/search?key=10&state=ka&city=bangalore 
+
+3. Query Params -> visible in the URL 
+
+4. Most used for querying, searching or filtering data etc 
+
+facebook.com/search?page=10&pagesize=20

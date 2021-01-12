@@ -1,0 +1,20 @@
+Episode #49 - Route Guards - CanActivate 
+
+1. ng g guard <guard_name>
+
+2. choose the option CanActivate 
+
+3. In the routing module -> we will use option canActivate 
+    -> it will resolve to true or false 
+
+    -> true means -> user can access the route 
+    -> false means -> user cannot access the route 
+
+4. We can use any number of route guards on canActivate 
+    -> Its an array 
+    -> all have to resolve to true 
+
+5. Use cases 
+    1. Check if user is loggedIn 
+    2. Check if user can Edit the product/order/details/profile 
+    3. Check if the user is an Admin 

@@ -1,0 +1,11 @@
+Episode #44 - Routes Redirect 
+
+1. By default the root level route is ''
+
+2. redirectTo and specify which route it has to go 
+
+{
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+}

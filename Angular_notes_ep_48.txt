@@ -1,0 +1,30 @@
+Episode # 48 - Route Guards 
+
+1. Route Guards helps us secure our routes and screens 
+
+2. E.g 
+
+    User -> Route Guard                             ->    /Admin 
+            -> Custom Logic 
+                -> True                             ->    Admin
+                    -> can access the route 
+
+                -> False 
+                    -> custom logic on failure condition -> home 
+
+                    
+3. Generate Route Guard 
+    ng g guard <guard_name> 
+
+4. Route Guards have something called "interfaces" 
+    - canActivate -> can a user access a route 
+    - canActivateChild -> can user access child routes of a parent route
+    - canDecativate -> check if user can exit the route 
+    - canLoad -> Can a lazy loaded module be loaded 
+    - resolve -> route data retrival before route activating  
+
+5. I will cover all of these in detail in coming episodes 
+    - quick examples 
+    - use cases 
+
+6. We can implement more than 1 guards in our application 

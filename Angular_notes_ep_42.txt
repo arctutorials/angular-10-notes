@@ -1,0 +1,21 @@
+Episode #42 - Parametrized Routes - Dynamic Routes 
+
+1. We can send dynamic data or parameters 
+
+2. URLs will look something like this 
+
+    http://localhost.com/user/10 -> get the user with Id as 10 
+
+    http://localhost.com/search/ka/bangalore -> state and city 
+
+    http://localhost.com/user/10/photos/34 -> user id = 10 and photo id = 34 
+
+3. While writing dynamic URLs/Params - make sure you write :(colon) for dynamic data 
+
+4. Import the ActivatedRoute class 
+
+5. Create an object in constructore -> 
+
+6. We can create any number of dynamic params in our URLs 
+
+

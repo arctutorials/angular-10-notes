@@ -1,0 +1,8 @@
+Episode #46 Wildcard Routes 
+
+1. Any unmatched route will be intercepted by Wild card route 
+
+2. This has to be the last route in your configuration 
+
+3. we define by saying the path to match "**"
+

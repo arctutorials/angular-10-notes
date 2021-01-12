@@ -1,0 +1,70 @@
+Episode #47 - Lazy Loading 
+
+1. Any angular application is made up of multiple Modules 
+
+    Loan Management System 
+        - Loans
+        - Customers 
+        - Payments
+        - Invoices
+        - Reports
+        - Authentication
+        - Authroization
+        - Downloads
+        - Admin 
+
+2. Angular by default will load all modules at start 
+    - Login 
+
+3. Loading all modules initally - wheather required or not 
+    - makes your application slow performace wise 
+    - also its a bad idea to expose modules which user is NOT going to use 
+    - user should not see/use 
+
+4. Lazy Loading comes into Picture 
+
+    -> Initially we will load only modules which are mandatory 
+    -> Rest we will serve as "requested" 
+
+    -> We will routes for each module 
+
+        - Payments 
+
+        /payments 
+            - then only we will load this module 
+
+            1. it will performance app 
+            2. we can verify if the user has access to this module 
+            
+5. lazy Loading will help in keeping your builds smaller 
+    -> ng build / compile application to deploy 
+        -> files 
+            -> the size of those files will be smaller 
+            -> it will load fast 
+            -> it will respond better 
+
+6. If you are coming from previous version of Angular 8 
+    -> the syntax has changed 
+        -> please use the expetcs a function 
+
+7. The modules generated using the Angular CLI - for lazy Loading 
+    -> There will be NO entry in AppModule 
+    -> Hence, it will not be loaded initially
+
+8. ng g module <module_name> --route <module_route> --module app.module 
+
+E.g ng g module payments --route payments --module app.module
+
+9. The above command will generate the following 
+    - A routing file for the module 
+    - A module file 
+    - A component 
+        - html
+        - css/scss
+        - spec
+        - class 
+    - UPDATE the app routing module 
+
+10. /payments 
+    -> Module on demand and its children - if needed 
+        /payments/success

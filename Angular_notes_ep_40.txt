@@ -1,0 +1,12 @@
+Episode #40- - Routing Module / App Routing Module / Router Module 
+
+1. Its a single module and placeholder where all our routes are configured for that particular module 
+
+2. Each module can have its own routes 
+
+3. During the angular app installation 
+    - we get an option - Do you want to have routing in yoru application? 
+        - it will automatically create the app-routing module file for us 
+
+4. ng g module app-routing --flat --module=app
+

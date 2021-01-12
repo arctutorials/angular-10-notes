@@ -1,0 +1,56 @@
+Episode #38 - Routing Strategy 
+
+1. Routing behaviour of the applications URLs 
+
+2. Angular provies 2 routing strategies 
+
+    - PathLocationStrategy
+        - Default routing strategy for Angular apps 
+        - HTML 5 push state URL
+        - Examples
+            - http://myapp.com/dashboard 
+            - http://myapp.com/user/10 
+            - http://myapp.com/user/10/photos 
+            - http://myapp.com/search?query=abc&state=ka&city=bengaluru 
+
+    - HashLocationStrategy 
+        - URL segments/patterns 
+        - URLs will have hash in the URLs 
+        - Examples 
+            - Examples
+            - http://myapp.com/#/dashboard 
+            - http://myapp.com/#/user/10 
+            - http://myapp.com/#/user/10/photos 
+            - http://myapp.com/#/search?query=abc&state=ka&city=bengaluru
+
+3. Hands-on examples for PathLocationStrategy 
+    - Default behaviour of Angular apps 
+
+4. Hands-on examples for HashLocationStrategy
+    - We need to import HashLocationStrategy from @angular/core 
+    - Add it to Providers array 
+    - Angular will start loading our URLs using # 
+
+5. Why do we need 2 different types of routing? 
+
+    Angular is a SPA( single page app)
+        - index.html
+    
+    Cloud vendors 
+        AWS 
+        GCP
+        Azure 
+        Hosting Provider ( Bluehost, Siteground, DigitalOcean)
+
+    - /#/loans/add -> Route 
+    index.html/#/loans/add 
+
+6. Which one you should use when? 
+
+    Really there is no difference affect your application 
+
+    PathLocationStrategy 
+        -> Clean URLs 
+        -> Simple 
+        -> Bookmarbale
+        -> Easy to Remember 
